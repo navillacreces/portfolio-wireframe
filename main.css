@@ -1,0 +1,1068 @@
+* {
+    box-sizing: border-box;
+  }
+
+  header{
+        
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    
+  }
+
+  h1{
+    text-align: center;
+    
+    border: 2px black solid;
+    display: inline;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  body{
+    background: #FFFFFF;
+   
+  }
+
+  .nav-flex{
+    display: flex;
+    /*justify-content: center; */
+  }
+
+  footer{
+    height: 25px; 
+  }
+
+  footer > p{
+    color: #262626;
+    text-align: center;
+    font-size: 10px;
+
+  }
+
+  .submit-button{
+    margin-top: 15px;
+    border: none;
+    background-color:#262626;
+    border: 1px solid #262626;
+    color: #FFFFFF;
+    font-weight: bold;
+    height: 30px;
+    
+  }
+  
+
+/*smartphones mobiles (portrait)*/
+@media (min-width: 300px) and (max-width: 480px){
+
+    
+      
+      .nav-bar{
+        list-style-type: none;
+        margin: auto;
+        margin-bottom: 10px;
+        padding-left: 0px;
+        padding-bottom: 10px;
+      }
+      
+      .nav-bar-elements{
+        display: inline;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+        color: #262626;
+        font-weight: bold;
+      }
+      
+      
+      .bio-div{
+ 
+        height: 200px;
+        border: none;
+        margin-left: 0;
+        margin-right: 0;
+       
+        
+      }
+    
+      .hero-image{
+    
+        background: url("/images/macbook.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        height: 200px;
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;    
+        
+        
+        
+      }
+      .projects-flex{
+        height: 1400px;
+      }
+      
+      .project1{
+        
+        height: 260px;
+        width: 270px;
+        background: url("/images/code.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin: auto;
+        margin-bottom: 10px;
+        border-radius: 25px;
+        
+      }
+      .project1-des{
+        margin-left: 9px;
+        margin-top:5px;
+        height: 150px;
+        width: 270px;
+        
+      }
+      p {
+         margin-left: 5px;
+         margin-right: 5px;
+         font-family: 'Raleway', sans-serif;
+         line-height: 22px;
+         font-size: 15px;
+         margin-bottom: 10px;
+         color: #FFFFFF;
+        }
+      .project2{
+        height: 260px;
+        width: 270px;
+        background: url("/images/code2.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin: auto;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        border-radius: 25px;
+      }
+      .project2-des{
+        margin-top:5px;
+        height: 150px;
+        width: 270px;
+        
+      }
+      
+      .project3{
+        height: 260px;
+        width: 270px;
+        background: url("/images/wireframe.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin: auto;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        border-radius: 25px;
+      }
+      .project3-des{
+        margin-top:5px;
+        height: 150px;
+        width: 270px;
+        margin-bottom: 15px;
+      }
+      
+      
+      .projects-div{
+        background: #262626;
+        height: 1290px;
+        padding-top: 10px;
+        
+      }
+      
+      .github-div{
+        background:#DC493A;
+        height: 245px;
+      }
+      
+      .contact-div{
+        background: #4392F1;
+        height: 200px;
+      }
+    
+      .form-div{
+        padding-top: 80px;
+        margin: auto;
+        display: block;
+        text-align:center;
+      }
+      
+    
+      .contact-div{
+        height: 230px;
+      }
+    
+      
+      
+
+      .image-flex{
+        display: flex;
+        justify-content: center;
+        padding-top: 35px;
+        flex-direction: column;
+        
+        
+      }
+      
+
+      .linked-in-pic{
+        
+        height: 75px;
+        width: 130px;
+        margin: auto;
+        padding-bottom: 30px;
+        
+        
+      }
+
+      .git-hub-pic{
+        padding-top: 15px;
+        height: 75px;
+        width: 130px;
+        margin: auto;
+      }
+      
+
+
+}
+
+/*low resolution tablets, mobiles (landscape)*/
+@media (min-width: 481px) and (max-width: 768px){
+
+    
+    
+    
+    
+    .nav-bar{
+      list-style-type: none;
+      margin: auto;
+      margin-bottom: 10px;
+      padding-left: 0px;
+    }
+    
+    .nav-bar-elements{
+
+      display: inline;
+      padding-left: 15px;
+      padding-right: 15px;
+      font-size: 20px;
+      font-family: 'Roboto', sans-serif;
+      color: #262626;
+    }
+    
+    .bio-div{
+      
+      height: 480px;
+      border: none;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  
+    .hero-image{
+  
+      background: url("/images/macbook.jpg");
+      max-width: 100%;
+      height: 480px;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    
+    .project1{
+      
+      height: 300px;
+      width: 470px;
+      background: url("/images/code.jpg");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      margin: auto;
+      margin-bottom: 10px;
+      border-radius: 25px;
+    }
+    .project1-des{
+
+      margin-left: 9px;
+      margin-top:5px;
+      height: 150px;
+      width: 270px;
+    }
+    p {
+
+       margin-left: 5px;
+       margin-right: 5px;
+       font-family: 'Raleway', sans-serif;
+       line-height: 24px;
+       margin-bottom: 15px;
+       color: #FFFFFF;
+      }
+    .project2{
+
+      height: 300px;
+      width: 470px;
+      background: url("/images/code2.jpg");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      margin: auto;
+      margin-bottom: 10px;
+      margin-top: 20px;
+      border-radius: 25px;
+    }
+    .project2-des{
+
+      margin-top:5px;
+      height: 150px;
+      width: 270px;
+    }
+    
+    .project3{
+      height: 300px;
+      width: 470px;
+      background: url("/images/wireframe.jpg");
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      margin: auto;
+      margin-bottom: 10px;
+      margin-top: 20px;
+      border-radius: 25px;
+    }
+    .project3-des{
+      margin-top:5px;
+      height: 150px;
+      width: 270px;
+      margin-bottom: 15px;
+    }
+    
+    
+    .projects-div{
+      background: #262626;
+      height: 1370px;
+      padding-top: 45px;
+    }
+    
+    .github-div{
+      background:#DC493A;
+      height: 200px;
+    }
+    
+    .contact-div{
+      background: #4392F1;
+      height: 500px;
+    }
+  
+    .form-div{
+      padding-top: 75px;
+      margin: auto;
+      display: block;
+      text-align:center;
+    }
+    
+  
+    .contact-div{
+      height: 240px;
+    }
+  
+    
+    
+    .linked-in-pic{
+      height: 75px;
+      width: 130px;
+      margin: auto;
+      
+      
+    }
+
+    .git-hub-pic{
+      
+      height: 75px;
+      width: 130px;
+      margin: auto;
+      
+    }
+
+    .image-flex{
+      display: flex;
+      padding-top: 55px;
+    }
+    
+    
+}
+
+/*tablets, ipads (portrait)*/
+@media (min-width: 768px) and (max-width: 1024px){
+
+    
+
+      
+      .nav-bar{
+        list-style-type: none;
+        margin: auto;
+        
+        margin-bottom: 15px;
+        padding-left: 0px;
+      }
+      
+      .nav-bar-elements{
+        display: inline;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 26px;
+        font-family: 'Roboto', sans-serif;
+        color: #262626;
+      }
+      
+      
+      .bio-div{
+        background:white;
+        height: 465px; 
+        border: none;
+        margin-left: 0;
+        margin-right: 0;
+        
+        
+      }
+    
+      .hero-image{
+    
+        background: url("/images/macbook.jpg");
+        max-width: 100%;
+        height: 465px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        
+      }
+      
+      .project1{
+        
+        height: 300px;
+        width: 270px;
+        background: url("/images/code.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin: auto;
+        margin-bottom: 10px;
+        border-radius: 25px;
+      }
+      .project1-des{
+        margin-left: 9px;
+        margin-top:5px;
+        height: 150px;
+        width: 270px;
+        
+      }
+      p {
+         margin-left: 5px;
+         margin-right: 5px;
+         font-family: 'Raleway', sans-serif;
+         line-height: 24px;
+         margin-bottom: 15px;
+         color: #FFFFFF;
+        }
+      .project2{
+        height: 300px;
+        width: 270px;
+        background: url("/images/code2.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin: auto;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        border-radius: 25px;
+      }
+      .project2-des{
+        margin-top:5px;
+        height: 150px;
+        width: 270px;
+        
+      }
+      
+      .project3{
+        height: 300px;
+        width: 270px;
+        background: url("/images/wireframe.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin: auto;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        border-radius: 25px;
+      }
+      .project3-des{
+        margin-top:5px;
+        height: 150px;
+        width: 270px;
+        margin-bottom: 15px;
+      }
+      
+      
+      .projects-div{
+        background: #262626;
+        
+        height: 1320px;
+        padding-top: 5px;
+      }
+      
+      .github-div{
+        background:#DC493A;
+        height: 230px;
+      }
+      
+      .contact-div{
+        background: #4392F1;
+        height: 240px;
+      }
+    
+      .form-div{
+        padding-top: 60px;
+        margin: auto;
+        display: block;
+        text-align:center;
+      }
+      
+    
+
+      .image-flex{
+        display: flex;
+        justify-content: center;
+        padding-top: 55px;
+        
+        
+      }
+      
+
+      .linked-in-pic{
+        height: 80px;
+        width: 135px;
+        margin: auto;
+        
+        
+      }
+
+      .git-hub-pic{
+        
+        height: 80px;
+        width: 135px;
+        margin: auto;
+      }
+      
+      
+      
+
+}
+
+
+/*tablets, ipads (landscape)*/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+
+    
+  
+
+      .projects-flex{
+        margin-top: 20px;
+      }
+      
+      .nav-bar{
+        list-style-type: none;
+        margin: auto;
+        /*background: #aaa;*/
+        margin-bottom: 15px;
+        padding-left: 0px;
+      }
+      
+      .nav-bar-elements{
+        display: inline;
+        padding-left: 33px;
+        padding-right: 33px;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        color: #262626;
+      }
+      
+      
+      .bio-div{
+        
+        background: red;
+        padding-top: 0px;
+        height: 460px;
+        border: none;
+        margin-left: 0;
+        margin-right: 0;
+        
+        
+        
+      }
+      .hero-image{
+        
+        background: url("/images/macbook.jpg");
+        max-width: 100%;
+        height: 467px;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        
+        
+      }
+      
+
+      
+      .project1{
+        
+        height: 300px;
+        width: 570px;
+        background: url("/images/code.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin: auto;
+        margin-bottom: 10px;
+        border-radius: 25px;
+      }
+      .project1-des{
+        margin-left: 9px;
+        margin-top:5px;
+        height: 150px;
+        width: 270px;
+        
+      }
+      p {
+         margin-left: 5px;
+         margin-right: 5px;
+         font-family: 'Raleway', sans-serif;
+         line-height: 24px;
+         margin-bottom: 15px;
+         color: #FFFFFF;
+        }
+      .project2{
+        height: 300px;
+        width: 570px;
+        background: url("/images/code2.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin: auto;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        border-radius: 25px;
+      }
+      .project2-des{
+        margin-top:5px;
+        height: 150px;
+        width: 270px;
+        
+      }
+      
+      .project3{
+        height: 300px;
+        width: 570px;
+        background: url("/images/wireframe.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin: auto;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        border-radius: 25px;
+      }
+      .project3-des{
+        margin-top:5px;
+        height: 150px;
+        width: 270px;
+        margin-bottom: 15px;
+      }
+      
+      
+      .projects-div{
+        background: #262626;
+        height: 1350px;
+        padding-top: 5px;
+      }
+      
+      .github-div{
+        background:#DC493A;
+        height: 230px;
+      }
+
+      .image-flex{
+        display: flex;
+        
+      }
+
+      .linked-in-pic{
+        
+        height: 85px;
+        width: 150px;
+        margin: auto;
+        
+       
+        
+      }
+
+      .git-hub-pic{
+        
+        height: 85px;
+        width: 150px;
+        margin: auto;
+      }
+      
+      .contact-div{
+        background: #4392F1;
+        height: 500px;
+      }
+    
+      .form-div{
+        padding-top: 30px;
+        margin: auto;
+        display: block;
+        text-align:center;
+      }
+
+      form{
+        margin-top: 50px;
+      }
+      
+    
+      .contact-div{
+        height: 240px;
+      }
+    
+      
+      
+}
+
+
+/*laptops, desktops*/
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+
+
+      
+      .nav-bar{
+        list-style-type: none;
+        margin: auto;
+        margin-bottom: 15px;
+        padding-left: 0px;
+        
+      }
+      
+      .nav-bar-elements{
+        display: inline;
+        padding-left: 30px;
+        padding-right: 30px;
+        font-size: 20px;
+        font-family: 'Roboto', sans-serif;
+        color: #262626;
+      }
+      
+      .bio-div{
+        background: #065FA3;
+        height: 696px;
+        border: none;
+        margin-left: 0;
+        margin-right: 0;
+        
+        
+      }
+    
+      .hero-image{
+    
+        background: url("/images/macbook.jpg");
+        background-size: 100%;
+        
+        background-repeat: no-repeat;
+        height: 700px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;    
+        
+        
+        
+      }
+      
+      .project1{
+        
+        height: 300px;
+        width: 270px;
+        background: url("/images/code.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin: auto;
+        margin-bottom: 10px;
+        border-radius: 25px;
+      }
+      .project1-des{
+        margin-left: 9px;
+        margin-top:5px;
+        height: 150px;
+        width: 270px;
+        
+      }
+      p {
+         margin-left: 5px;
+         margin-right: 5px;
+         font-family: 'Raleway', sans-serif;
+         line-height: 24px;
+         margin-bottom: 15px;
+         color: #FFFFFF;
+        }
+      .project2{
+        height: 300px;
+        width: 270px;
+        background: url("/images/code2.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin: auto;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        border-radius: 25px;
+      }
+      .project2-des{
+        margin-top:5px;
+        height: 150px;
+        width: 270px;
+        
+      }
+      
+      .project3{
+        height: 300px;
+        width: 270px;
+        background: url("/images/wireframe.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin: auto;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        border-radius: 25px;
+      }
+      .project3-des{
+        margin-top:5px;
+        height: 150px;
+        width: 270px;
+        margin-bottom: 15px;
+      }
+      
+      
+      .projects-div{
+        background: #262626;
+        height: 1650px;
+        padding-top: 5px;
+      }
+      
+      
+      
+      .contact-div{
+        background: #4392F1;
+        height: 500px;
+      }
+    
+      .form-div{
+        padding-top: 50px;
+        margin: auto;
+        display: block;
+        text-align:center;
+      }
+      
+    
+      .contact-div{
+        height: 200px;
+      }
+    
+      
+      
+      .github-div{
+        background:#DC493A;
+        height: 195px;
+      }
+
+      
+
+      .image-flex{
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+      }
+
+      .linked-in-pic{
+        height: 90px;
+        width: 150px;
+        margin: auto;
+        
+      }
+
+      .git-hub-pic{
+        
+        height: 90px;
+        width: 155px;
+        margin: auto;
+        
+      }
+    
+}
+
+/*desktops - higher resolution*/
+@media (min-width: 1281px){
+
+        .nav-flex{
+        display: flex;
+        background: black;
+        width: 100%;
+        height: 50px;
+        border: 2px black solid;
+      }
+      
+      .nav-bar{
+        list-style-type: none;
+        margin: auto;
+        
+        margin-bottom: 25px;
+        
+        margin-top: 10px;
+        background: black;
+        
+      }
+      
+      .nav-bar-elements{
+        display: inline;
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size: 28px;
+        font-family: 'Roboto', sans-serif;
+        color: #FFFFFF;
+      }
+      
+      
+      .bio-div{
+        background: #065FA3;
+      
+        height: 950px;
+        border: none;
+        margin-left: 0;
+        margin-right: 0;
+       
+        
+      }
+    
+      .hero-image{
+    
+        background: url("/images/macbook.jpg");
+        max-width: 100%;
+        height: 950px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        
+      }
+      
+      .project1{
+        
+        height: 300px;
+        width: 270px;
+        background: url("/images/code.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin: auto;
+        margin-bottom: 10px;
+        border-radius: 25px;
+      }
+      .project1-des{
+        margin-left: 9px;
+        margin-top:5px;
+        height: 150px;
+        width: 270px;
+        
+      }
+      p {
+         margin-left: 5px;
+         margin-right: 5px;
+         font-family: 'Raleway', sans-serif;
+         line-height: 24px;
+         margin-bottom: 15px;
+         color: #FFFFFF;
+        }
+      .project2{
+        height: 300px;
+        width: 270px;
+        background: url("/images/code2.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin: auto;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        border-radius: 25px;
+      }
+      .project2-des{
+        margin-top:5px;
+        height: 150px;
+        width: 270px;
+        
+      }
+      
+      .project3{
+        height: 300px;
+        width: 270px;
+        background: url("/images/wireframe.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        margin: auto;
+        margin-bottom: 10px;
+        margin-top: 20px;
+        border-radius: 25px;
+      }
+      .project3-des{
+        margin-top:5px;
+        height: 150px;
+        width: 270px;
+        margin-bottom: 15px;
+      }
+      
+      
+      .projects-div{
+        background: #262626;
+        height: 1250px;
+        padding-top: 5px;
+        
+      }
+
+      .github-div{
+        background:#DC493A;
+        height: 215px;
+      }
+      
+      .contact-div{
+        background: #4392F1;
+        height: 300px;
+      }
+    
+      .form-div{
+        padding-top: 80px;
+        margin: auto;
+        display: block;
+        text-align:center;
+      }
+    
+    
+
+      .image-flex{
+        display: flex;
+        padding-top: 50px;
+      }
+
+      .linked-in-pic{
+        height: 85px;
+        width: 10%;
+        margin: auto;
+        
+      }
+
+      .git-hub-pic{
+        
+        height: 85px;
+        width: 200px;
+        margin: auto;
+      }
+
+}
